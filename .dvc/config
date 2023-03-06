@@ -1,2 +1,4 @@
+[core]
+    remote = origin
 ['remote "origin"']
     url = https://dagshub.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML.dvc
