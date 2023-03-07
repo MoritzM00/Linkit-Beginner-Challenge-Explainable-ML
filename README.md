@@ -4,6 +4,20 @@ Repository for the Linkit Beginner Challengeon Explainable ML using SHAP values.
 
 ## Challenge Description
 
+The goal of this challenge is to build a model that predicts whether a customer will subscribe to a term deposit or not and to explain the model using SHAP Values.
+
+The [dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing) is from the UCI Machine Learning Repository and contains information about customers of a Portuguese bank. The target variable is `deposit` and has two possible values: `yes` and `no`. For more information refer to the `challenge.ipynb` notebook.
+
+### Evaluation
+
+Your submissions will be evaluated based on the following criteria:
+
+1. `F1-Score` on a hold-out test set
+2. Explanation of the predictions
+  For a few selected test points, you will have to explain with SHAP values why the model made the prediction it did.
+
+### Submissions
+
 ## Instructions
 
 You can either develop locally by cloning the repo or work in a cloud environment like Google Colab.
@@ -16,13 +30,12 @@ To get the data inside colab, use the following commands inside a cell (make sur
 
 ```bash
 !pip install dvc
-!dvc get https://dagshub.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank.csv -o data/bank.csv
+!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank.csv -o data/bank.csv
 ```
 
 This installs `dvc` and downloads the data from the repository.
 
-You may have to install some missing dependencies, that are not pre-installed in the colab environment like `shap`.
-with the following command:
+You may have to install some missing dependencies, that are not pre-installed in the colab environment like `shap`:
 
 ```bash
 !pip install shap
@@ -30,7 +43,7 @@ with the following command:
 
 ### Local Development
 
-For local development, you can clone this repository locally and run the following commands to set up a virtual environment and install the required dependencies. You must have python installed on your machine.
+For local development, you can fork this repository and run the following commands to set up a virtual environment and install the required dependencies. You must have python installed on your machine. I used Python 3.10.7 for this project.
 
 You can use your preferred method of creating a virtual environment, but we recommend using the builtin `venv`:
 
