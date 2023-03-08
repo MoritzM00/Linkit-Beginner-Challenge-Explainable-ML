@@ -30,7 +30,8 @@ To get the data inside colab, use the following commands inside a cell (make sur
 
 ```bash
 !pip install dvc
-!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank.csv -o data/bank.csv
+!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank_train.csv -o data/bank_train.csv
+!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank_test.csv -o data/bank_test.csv
 ```
 
 This installs `dvc` and downloads the data from the repository.
