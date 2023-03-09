@@ -12,9 +12,9 @@ The [dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing) is from th
 
 Your submissions will be evaluated based on the following criteria:
 
-1. `F1-Score` on a hold-out test set
-2. Explanation of the predictions
-  For a few selected test points, you will have to explain with SHAP values why the model made the prediction it did.
+1. Accuracy on a hold-out test set
+2. Explanation of the predictions:
+   For a few selected test points, you will have to explain with SHAP values why the model made the prediction it did.
 
 ### Submissions
 
