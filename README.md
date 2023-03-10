@@ -1,5 +1,12 @@
 # Linkit Beginner Challenge: Explainable ML using SHAP values
 
+[![Lint](https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML/actions/workflows/lint.yml/badge.svg)](https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML/actions/workflows/lint.yml)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+
+[pre-commit]: https://github.com/pre-commit/pre-commit
+[black]: https://github.com/psf/black
+
 Repository for the Linkit Beginner Challengeon Explainable ML using SHAP values.
 
 ## Challenge Description
