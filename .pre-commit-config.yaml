@@ -10,8 +10,8 @@ repos:
     hooks:
     -   id: black
     -   id: black-jupyter
--   repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+-   repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.8.0
     hooks:
     -   id: isort
         args: ["--profile", "black", "--line-length", "88"]
@@ -24,3 +24,5 @@ repos:
 #    rev: 0.6.1
 #    hooks:
 #    -   id: nbstripout
+ci:
+    autofix_prs: false
