@@ -1,7 +1,9 @@
 # Custom
 data/
-process_raw.py
 models/
+
+process_raw.py
+evaluate_submission.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
