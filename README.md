@@ -25,29 +25,28 @@ Your submissions will be evaluated based on the following criteria:
 
 ### Submissions
 
+Your submission must include
+
+- Your notebook with model training and explanation. Make sure that the submitted notebook still contains the output, i.e. do not clear the output before submitting.
+- A file called `submission-<your_team_number>.csv` which contains the predictions of the test set.
+
+Follow the submission instructions in the `challenge.ipynb` notebook for details on how create the `.csv` file.
+
 ## Instructions
 
 You can either develop locally by cloning the repo or work in a cloud environment like Google Colab.
 
 ### Google Colab (Recommended)
 
-You can use Google Colab to run the notebook.
+You can use Google Colab to run the notebook. Just open the notebook in Colab and run the cells. No additional setup is needed.
 
-To get the data inside colab, use the following commands inside a cell (make sure to prefix the line with `!` as it is shown here):
+The only downside is that google colab does not persist your data. So you have to download the data every time you open the notebook.
 
-```bash
-!pip install dvc
-!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank_train.csv -o data/bank_train.csv
-!dvc get https://github.com/MoritzM00/Linkit-Beginner-Challenge-Explainable-ML data/bank_test.csv -o data/bank_test.csv
+You may have to install some missing dependencies, that are not pre-installed in the colab environment like `shap`. This can be done by adding more libraries in the first code cell of the notebook to the line
+```
+%pip install -q dvc shap <more libraries here>
 ```
 
-This installs `dvc` and downloads the data from the repository.
-
-You may have to install some missing dependencies, that are not pre-installed in the colab environment like `shap`:
-
-```bash
-!pip install shap
-```
 
 ### Local Development
 
