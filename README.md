@@ -6,16 +6,21 @@
 
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
-
-Repository for the Linkit Beginner Challengeon Explainable ML using SHAP values.
-
+---
 ## Challenge Description
 
 The goal of this challenge is to build a model that predicts whether a customer will subscribe to a term deposit or not and to explain the model using SHAP Values.
 
+### What is a term deposit?
+
+According to [Investopedia](https://www.investopedia.com/terms/t/termdeposit.asp), a **term deposit** (dt. Termineinlage, Termingeld) is a fixed-term investment that includes the deposit of money into an account at a financial institution. Term deposit investments usually carry short-term maturities ranging from one month to a few years and will have varying levels of required minimum deposits. The investor must understand when buying a term deposit that they can withdraw their funds _only after the term ends_. This means, that the money is locked up for some period of time.
+
+### The dataset
+
 The [dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing) is from the UCI Machine Learning Repository and contains information about customers of a Portuguese bank. The target variable is `deposit` and has two possible values: `yes` and `no`. For more information refer to the `challenge.ipynb` notebook.
 
-### Evaluation
+
+## Evaluation
 
 Your submissions will be evaluated based on the following criteria:
 
@@ -23,7 +28,7 @@ Your submissions will be evaluated based on the following criteria:
 2. Explanation of the predictions:
    For a few selected test points, you will have to explain with SHAP values why the model made the prediction it did.
 
-### Submissions
+## Submissions
 
 Your submission must include
 
@@ -32,7 +37,7 @@ Your submission must include
 
 Follow the submission instructions in the `challenge.ipynb` notebook for details on how create the `.csv` file.
 
-## Instructions
+## Development Instructions
 
 You can either develop locally by cloning the repo or work in a cloud environment like Google Colab.
 
@@ -43,10 +48,10 @@ You can use Google Colab to run the notebook. Just open the notebook in Colab an
 The only downside is that google colab does not persist your data. So you have to download the data every time you open the notebook.
 
 You may have to install some missing dependencies, that are not pre-installed in the colab environment like `shap`. This can be done by adding more libraries in the first code cell of the notebook to the line
+
 ```
 %pip install -q dvc shap <more libraries here>
 ```
-
 
 ### Local Development
 
