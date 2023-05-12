@@ -6,7 +6,7 @@
 
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
----
+
 ## Challenge Description
 
 The goal of this challenge is to build a model that predicts whether a customer will subscribe to a term deposit or not and to explain the model using SHAP Values.
@@ -18,7 +18,6 @@ According to [Investopedia](https://www.investopedia.com/terms/t/termdeposit.asp
 ### The dataset
 
 The [dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing) is from the UCI Machine Learning Repository and contains information about customers of a Portuguese bank. The target variable is `deposit` and has two possible values: `yes` and `no`. For more information refer to the `challenge.ipynb` notebook.
-
 
 ## Evaluation
 
