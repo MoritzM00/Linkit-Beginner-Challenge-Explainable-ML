@@ -23,7 +23,7 @@ The [dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing) is from th
 
 Your submissions will be evaluated based on the following criteria:
 
-1. Accuracy on a hold-out test set
+1. F1-Score on a hold-out test set
 2. Explanation of the predictions:
    For a few selected test points, you will have to explain with SHAP values why the model made the prediction it did.
 
@@ -32,9 +32,6 @@ Your submissions will be evaluated based on the following criteria:
 Your submission must include
 
 - Your notebook with model training and explanation. Make sure that the submitted notebook still contains the output, i.e. do not clear the output before submitting.
-- A file called `submission-<your_team_number>.csv` which contains the predictions of the test set.
-
-Follow the submission instructions in the `challenge.ipynb` notebook for details on how create the `.csv` file.
 
 ## Development Instructions
 
