@@ -4,6 +4,7 @@ models/
 
 process_raw.py
 evaluate_submission.py
+kaggle.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
