@@ -7,6 +7,8 @@
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
+**Note**: This competition has moved to [Kaggle](https://www.kaggle.com/competitions/linkit-beginner-challenge-sose-23)
+
 ## Challenge Description
 
 The goal of this challenge is to build a model that predicts whether a customer will subscribe to a term deposit or not and to explain the model using SHAP Values.
